@@ -1,4 +1,3 @@
-source 'https://github.com/spookyd/CocoaPodsRepo.git
 Pod::Spec.new do |spec|
   spec.name                     = "FireworkVideo"
   spec.version                  = "0.2.0"
@@ -8,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author                   = "Loop Now Technologies, Inc."
   spec.platform                 = :ios, "11.0"
   spec.module_name              = "FireworkVideo"
-  spec.source                   = { :http => "https://github.com/loopsocial/firework_ios_sdk/releases/download/v#{spec.version}/FireworkVideo-v#{spec.version}.xcframework.zip" }
+  spec.source                   = { :http => "https://github.com/loopsocial/firework_ios_sdk/releases/download/v#{spec.version.to_s}/FireworkVideo-v#{spec.version.to_s}.xcframework.zip" }
   spec.preserve_paths           = "FireworkVideo.xcframework"
   spec.ios.vendored_frameworks  = "FireworkVideo.xcframework"
   spec.frameworks               = "AVFoundation"
