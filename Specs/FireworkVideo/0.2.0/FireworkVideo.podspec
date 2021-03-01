@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.preserve_paths           = "FireworkVideo.xcframework"
   spec.ios.vendored_frameworks  = "FireworkVideo.xcframework"
   spec.frameworks               = "AVFoundation"
-  spec.cocoapods_version        = '>= 1.10.0'
+  spec.cocoapods_version        = ">= 1.10.0"
 end
